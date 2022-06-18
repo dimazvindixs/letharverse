@@ -1,0 +1,86 @@
+[2021-12-07 10:21:59] local.ERROR: Call to undefined method Laravel\Lumen\Routing\Router::where() {"exception":"[object] (Error(code: 0): Call to undefined method Laravel\\Lumen\\Routing\\Router::where() at /home/u1541933/public_html/coffeebean-blog/routes/web.php:28)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/bootstrap/app.php(111): require()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#2 /home/u1541933/public_html/coffeebean-blog/bootstrap/app.php(112): Laravel\\Lumen\\Routing\\Router->group()
+#3 /home/u1541933/public_html/index.php(14): require('/home/u1541933/...')
+#4 {main}
+"} 
+[2021-12-07 10:22:18] local.ERROR: Call to undefined method Laravel\Lumen\Routing\Router::where() {"exception":"[object] (Error(code: 0): Call to undefined method Laravel\\Lumen\\Routing\\Router::where() at /home/u1541933/public_html/coffeebean-blog/routes/web.php:28)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/bootstrap/app.php(111): require()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Routing/Router.php(62): {closure}()
+#2 /home/u1541933/public_html/coffeebean-blog/bootstrap/app.php(112): Laravel\\Lumen\\Routing\\Router->group()
+#3 /home/u1541933/public_html/index.php(14): require('/home/u1541933/...')
+#4 {main}
+"} 
+[2021-12-07 10:26:14] local.ERROR: Cannot register two routes matching "/" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/\" for method \"GET\" at /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php:86)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute()
+#2 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute()
+#3 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#4 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(209): FastRoute\\simpleDispatcher()
+#5 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /home/u1541933/public_html/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2021-12-07 10:26:17] local.ERROR: Cannot register two routes matching "/" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/\" for method \"GET\" at /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php:86)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute()
+#2 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute()
+#3 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#4 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(209): FastRoute\\simpleDispatcher()
+#5 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /home/u1541933/public_html/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2021-12-07 10:26:18] local.ERROR: Cannot register two routes matching "/" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/\" for method \"GET\" at /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php:86)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute()
+#2 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute()
+#3 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#4 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(209): FastRoute\\simpleDispatcher()
+#5 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /home/u1541933/public_html/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2021-12-07 10:27:47] local.ERROR: Cannot register two routes matching "/" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/\" for method \"GET\" at /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php:86)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute()
+#2 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute()
+#3 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#4 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(209): FastRoute\\simpleDispatcher()
+#5 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /home/u1541933/public_html/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 
+[2021-12-07 10:28:06] local.ERROR: Cannot register two routes matching "/" for method "GET" {"exception":"[object] (FastRoute\\BadRouteException(code: 0): Cannot register two routes matching \"/\" for method \"GET\" at /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php:86)
+[stacktrace]
+#0 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/DataGenerator/RegexBasedAbstract.php(30): FastRoute\\DataGenerator\\RegexBasedAbstract->addStaticRoute()
+#1 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/RouteCollector.php(44): FastRoute\\DataGenerator\\RegexBasedAbstract->addRoute()
+#2 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(207): FastRoute\\RouteCollector->addRoute()
+#3 /home/u1541933/public_html/coffeebean-blog/vendor/nikic/fast-route/src/functions.php(25): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#4 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(209): FastRoute\\simpleDispatcher()
+#5 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(173): Laravel\\Lumen\\Application->createDispatcher()
+#6 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(429): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#7 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(175): Laravel\\Lumen\\Application->sendThroughPipeline()
+#8 /home/u1541933/public_html/coffeebean-blog/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch()
+#9 /home/u1541933/public_html/index.php(28): Laravel\\Lumen\\Application->run()
+#10 {main}
+"} 

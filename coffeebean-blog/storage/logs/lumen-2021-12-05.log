@@ -1,0 +1,9 @@
+[2021-12-05 14:11:23] local.ERROR: Command "serve" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"serve\" is not defined. at C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\vendor\\symfony\\console\\Application.php:709)
+[stacktrace]
+#0 C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\vendor\\symfony\\console\\Application.php(259): Symfony\\Component\\Console\\Application->find('serve')
+#1 C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\vendor\\symfony\\console\\Application.php(171): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\vendor\\illuminate\\console\\Application.php(94): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\vendor\\laravel\\lumen-framework\\src\\Console\\Kernel.php(116): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\alexa\\PhpstormProjects\\coffeebean-blog\\artisan(35): Laravel\\Lumen\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
